@@ -1,0 +1,200 @@
+/* 标题 字号 字体样式 */
+@media only screen and (min-width: 1920px) and (max-width: 3839px){ 
+    html { 
+        font-size: 8px !important;  
+    } 
+} 
+@media only screen and (min-width: 3840px){ 
+    html { 
+        font-size:  16px !important;  
+    } 
+} 
+h3 {
+    font-size: 1.3125rem;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #333333;
+}
+h2{
+    font-size: 2.25rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #74B9E7;
+    line-height: 3.125rem;
+    margin-bottom: 2rem;
+}
+h3{
+    font-size: 2rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #B4BFEB;
+    line-height: 2.75rem;  
+}
+h4{
+    width: 18rem;
+    text-align: center;
+}
+.figure{
+    font-size: 3.75rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #B4BFE9;
+    line-height: 5.25rem;
+    vertical-align: middle;
+}
+.figurec{
+    font-size: 3rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #B4BFE9;
+    line-height: 5.25rem;
+    vertical-align: middle;
+}
+.figure_two{
+    font-size: 3rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #B4BFE9;
+    line-height: 4.125rem;
+}
+.figuremin{
+    font-size: 2.25rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #B4BFE9;
+    line-height: 3.125rem;
+}
+.maxh2{
+    font-size: 3rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #74B9E7;
+    line-height: 4.125rem;
+}
+.subunit{
+    font-size: 1.5rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #6A7088;
+    line-height: 3.9rem;
+    align-self: flex-end; 
+}
+.subunita{
+    font-size: 1.5rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #6A7088;
+    line-height: 3.2rem;
+    align-self: flex-end; 
+}
+
+.number {
+    display: flex;
+    margin-bottom: 2.125rem;
+    
+}
+.number .title{
+    width: 6.25rem;
+    height: 2.125rem;
+    text-align: right;
+    font-size: 1.5rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #6A7088;
+    line-height: 4.125rem;
+    margin-right: 2.5rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.number .titled{
+    width: 7.5rem;
+    height: 2.125rem;
+    text-align: right;
+    font-size: 1.5rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #6A7088;
+    line-height: 4.125rem;
+    margin-right: 2.5rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin-left: 2.5rem;
+}
+.titlep{
+    font-size: 1.5rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #6A7088;
+    line-height: 4.125rem;
+    margin-right: 2.5rem;
+    margin-bottom: 1rem;
+}
+.number .paragraph{
+    display: inline-block;
+    margin-right: 2.5rem;
+    vertical-align: middle;
+    
+}
+.number .paragraph span:nth-child(1){
+    font-size: 2rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #00B0AE;
+    line-height: 2.75rem;
+    display: block;
+}
+.number .paragraph span:nth-child(2){
+    font-size: 1.25rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #B4BFE9;
+    line-height: 1.75rem;
+    display: block;
+}
+.maxtitle{
+    font-size: 2rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #74B9E7;
+    line-height: 2.75rem;
+}
+.bordercla{
+    width: 90%;
+    height: .125rem;
+    background: linear-gradient(270deg, rgba(219, 225, 247, 0) 0%, #B4BFEB 100%); /* 标准的语法 */
+    margin-bottom: 3.75rem;
+}
+.borda{
+    width: .25rem;
+    height: 32.625rem;
+    float: left;
+    background: linear-gradient(260deg, #5BB2DB 0%, rgba(91, 178, 219, 0) 100%);
+}
+.borda_cross{
+    width: calc(100% - 4.375rem);
+    height: .125rem;
+    background: linear-gradient(270deg, #5BB2DB 0%, rgba(91, 178, 219, 0) 100%);
+    position: absolute;
+    top: 26.8rem;
+    left: 2.125rem;
+}
+.numb{
+    font-size: 1.75rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #B4BFEB;
+    line-height: 2.5rem;
+    vertical-align: middle;
+}
+.titlea{
+    font-size: 1.75rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #B4BFEB;
+    line-height: 2.5rem;
+}
+.dv-border-box-8{
+    width: 100%;
+    height: 100%;
+}
+@media (min-resolution: 2dppx) {}

@@ -1,0 +1,230 @@
+.informationData{
+    width 100%;
+    height 100%;
+    .number {
+        // display flex;
+        // margin-bottom 1rem;
+        // .title{
+        //     width 6.25rem;
+        //     height 2.125rem;
+        //     text-align right;
+        //     font-size 1.5rem;
+        //     font-family PingFangSC-Regular, PingFang SC;
+        //     font-weight 400;
+        //     color #6A7088;
+        //     line-height 4.125rem;
+        //     margin-right 2.5rem;
+        //     display inline-block;
+        //     margin-bottom 1rem;
+        // }
+        // .paragraph{
+        //     display inline-block;
+        //     margin-right 2.5rem;
+        //     vertical-align middle;
+        //     span:nth-child(1){
+        //         font-size 2rem;
+        //         font-family PingFangSC-Regular, PingFang SC;
+        //         font-weight 400;
+        //         color #00B0AE;
+        //         line-height 2.75rem;
+        //         display block;
+        //     }
+        //     span:nth-child(2){
+        //         font-size 1.25rem;
+        //         font-family PingFangSC-Regular, PingFang SC;
+        //         font-weight 400;
+        //         color #B4BFE9;
+        //         line-height 1.75rem;
+        //         display block;
+        //     }
+        // }
+        width 33.3%;
+        text-align center;
+        // float left;
+        display inline-block;
+    }
+    // 左侧
+    .View_left{
+        width 50rem;
+        height 100%;
+        margin-right 1.5rem;
+        // display inline-block;
+        float left;
+        ol{
+            width 100%;
+            height 100%;
+            li{
+                width calc(100% - 1.875rem);
+                height 28rem;
+                padding 2.25rem 0 0 1.875rem;
+                list-style none;
+                margin-bottom 1.5rem;
+                background-color rgba(0, 0, 0, .2);
+                .equipment{
+                    width 100%;
+                    height 13.5rem;
+                    margin-bottom 5.125rem;
+                    .View_advocate{
+                        width 13.5rem;
+                        height 9.625rem;
+                        padding-top 3.875rem;
+                        text-align center;
+                        border-radius 50%;
+                        float left;
+                        position relative;
+                        .borderClass{
+                            width 100%;
+                            height 100%;
+                            background-image url('./border.png')
+                            background-size 100% 100%;
+                            position absolute;
+                            top 0px;
+                            left 0px;
+                            animation turn 1.7s linear infinite;
+                        }
+                    }
+                    .View_advocate:nth-child(1){
+                        margin-left 1rem;
+                    }
+                    .View_advocate:nth-child(2){
+                        margin-left 1.125rem;
+                        margin-right 1.125rem;
+                    }
+                }
+                .region{
+                    font-size 1.5rem;
+                    font-family PingFangSC-Regular, PingFang SC;
+                    font-weight 400;
+                    line-height 2.125rem;
+                    color #00B0AE;
+                    text-align center;
+                    span{
+                        margin-right 2.5rem;
+                        display inline-block;
+                    }
+                    span:first-child{
+                        color #6A7088;
+                        margin-right 2.375rem;
+                    }
+                    span:last-child{
+                        margin-right 0;
+                    }
+                }
+            }
+            li:nth-child(2){
+                margin-bottom 1.375rem;
+            }
+            li:last-child{
+                margin-bottom 0px;
+            }
+        }
+    }
+    // 中间-地图
+    .View_center{
+        width 133.75rem;
+        height 100%;
+        // display inline-block;
+        float left;
+        background-color rgba(0, 0, 0, .2);
+        h1{
+            font-size 4.5rem;
+            font-family PingFangSC-Regular, PingFang SC;
+            font-weight 400;
+            color #74B9E7;
+            line-height 6.25rem;
+            text-align center;
+            margin-top 5.5rem;
+        }
+        h4{
+            margin-left 6.5rem;
+            margin-top 6rem;
+        }
+        .maxtitle{
+            margin-top 1.125rem;
+        }
+        .View_map{
+            width 117.375rem;
+            height 93.5rem;
+            margin 0 auto;
+            // margin-top 13rem;
+        }
+    }
+    // 右侧
+    .View_right{
+        width 50rem;
+        height 100%;
+        margin-left 1.375rem;
+        // display inline-block;
+        float left;
+        ol{
+            width 100%;
+            height 100%;
+            li{
+                list-style none;
+                background-color rgba(0, 0, 0, .2);
+            }
+            li:nth-child(1){
+                width calc(100% - 1.875rem);
+                height 65.125rem;
+                padding 2.25rem 0 0 1.875rem;
+                margin-bottom 1.25rem;
+            }
+            li:last-child{
+                width calc(100% - 1.875rem);
+                height 54.5rem;
+                padding 2.25rem 0 0 1.875rem;
+                margin-bottom 0px;
+            }
+            .pic{
+                width 48rem;
+                height 39.5rem;//41.125rem
+                padding-top 6.875rem;//39.5rem
+                border-top 1px solid #242536;
+                box-sizing border-box
+                margin 0 auto;
+                h2{
+                    margin-bottom .25rem;
+                }
+                .View_pic{
+                    width 48rem;
+                    height 35rem;
+                }
+            }
+            .bir{
+                width 48rem;
+                height 32.5rem;//41.125rem
+                padding-top 7.25rem;//39.5rem
+                border-top 1px solid #242536;
+                box-sizing border-box
+                margin 0 auto;
+                h2{
+                    margin-bottom .25rem;
+                }
+                .view_birStudent{
+                    width 48rem;
+                    height 100%;
+                }
+            }
+        }
+    }
+}
+.leftNumber{
+    width 18.75rem;
+    float left;
+    text-align center;
+    .distance{
+        margin-bottom 3.5rem;
+    }
+}
+.view_Bir{
+    width 29rem;
+    height calc(100% - 6rem);
+    float right;
+}
+@keyframes turn{
+    0%{-webkit-transform:rotate(360deg);}
+    25%{-webkit-transform:rotate(270deg);}
+    50%{-webkit-transform:rotate(180deg);}
+    75%{-webkit-transform:rotate(90deg);}
+    100%{-webkit-transform:rotate(0deg);}
+}
